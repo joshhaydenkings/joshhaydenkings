@@ -29,33 +29,30 @@
 
 I am an **AI & ML engineering student** focused on building practical, production-minded intelligent systems. My work sits at the intersection of **machine learning, backend engineering, computer vision, and full-stack product development**.
 
-```python
-class JoshuvaHayden:
-    def __init__(self):
-        self.name = "Joshuva Hayden Kingseley"
-        self.location = "Chennai, Tamil Nadu, India"
-        self.education = "B.Tech CSE (AI & ML) @ SRM IST · CGPA 9.0 · 2024-2028"
-        self.role = "AI & ML Engineer"
+<table>
+  <tr>
+    <td><b>🎓 Education</b></td>
+    <td>B.Tech CSE (AI & ML) @ SRM IST · CGPA 9.0 · 2024-2028</td>
+  </tr>
+  <tr>
+    <td><b>💼 Role</b></td>
+    <td>AI & ML Engineer</td>
+  </tr>
+  <tr>
+    <td><b>📍 Location</b></td>
+    <td>Chennai, Tamil Nadu, India</td>
+  </tr>
+  <tr>
+    <td><b>🎯 Focus Areas</b></td>
+    <td>Machine Learning Pipelines · Computer Vision · Full-Stack AI Products · MLOps · LLM Engineering</td>
+  </tr>
+  <tr>
+    <td><b>🧰 Core Stack</b></td>
+    <td>Python · Java · C++ · FastAPI · React · TypeScript · OpenCV · Scikit-learn · Docker</td>
+  </tr>
+</table>
 
-        self.interests = [
-            "Machine Learning Pipelines",
-            "Computer Vision",
-            "Full-Stack AI Products",
-            "MLOps & Model Deployment",
-            "LLM Engineering"
-        ]
-
-        self.core_stack = [
-            "Python", "Java", "C++", "FastAPI", "React",
-            "TypeScript", "OpenCV", "Scikit-learn", "Docker"
-        ]
-
-    def motto(self):
-        return "Automate the mundane. Engineer the meaningful."
-
-me = JoshuvaHayden()
-print(me.motto())
-```
+> <i>Automate the mundane. Engineer the meaningful.</i>
 
 <br clear="right"/>
 
@@ -188,13 +185,13 @@ print(me.motto())
 
 ## 📚 Currently Learning
 
-```text
-Deep Learning       → CNNs · RNNs · Transformers · Attention Mechanisms
-MLOps               → Model Serving · CI/CD for ML · Docker Pipelines · Model Monitoring
-LLM Engineering     → Fine-tuning · RAG · Prompt Engineering · LangChain
-Cloud for AI        → AWS SageMaker · GCP Vertex AI · Model Registry
-AI Security         → Adversarial Robustness · Explainable AI · Robust Model Design
-```
+| Area | Topics |
+|:---|:---|
+| 🧠 Deep Learning | CNNs · RNNs · Transformers · Attention Mechanisms |
+| ⚙️ MLOps | Model Serving · CI/CD for ML · Docker Pipelines · Model Monitoring |
+| 🤖 LLM Engineering | Fine-tuning · RAG · Prompt Engineering · LangChain |
+| ☁️ Cloud for AI | AWS SageMaker · GCP Vertex AI · Model Registry |
+| 🔐 AI Security | Adversarial Robustness · Explainable AI · Robust Model Design |
 
 ---
 
