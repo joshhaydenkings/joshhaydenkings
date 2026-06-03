@@ -1,0 +1,91 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050B18"/>
+      <stop offset="1" stop-color="#081423"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="180" y1="70" x2="1020" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FC3F7"/>
+      <stop offset="0.5" stop-color="#6EA8FE"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4FC3F7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7C4DFF" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#5B6B86" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+
+  <!-- Ambient glows -->
+  <circle cx="180" cy="80" r="90" fill="#3B82F6" fill-opacity="0.12"/>
+  <circle cx="1020" cy="245" r="110" fill="#7C4DFF" fill-opacity="0.10"/>
+  <circle cx="950" cy="75" r="70" fill="#38BDF8" fill-opacity="0.08"/>
+
+  <!-- Tech lines -->
+  <g stroke="url(#line)" stroke-width="2">
+    <path d="M70 235 C180 195, 260 180, 345 212 S530 260, 635 222 S820 150, 930 188 S1080 240, 1140 212"/>
+    <path d="M90 92 C220 130, 305 118, 405 96 S590 60, 730 92 S920 152, 1095 112"/>
+    <path d="M160 276 C250 224, 360 228, 455 256 S630 298, 768 260 S980 200, 1080 234"/>
+  </g>
+
+  <!-- Nodes -->
+  <g filter="url(#softGlow)">
+    <g fill="#5CC8FF">
+      <circle cx="90" cy="92" r="4"/>
+      <circle cx="210" cy="122" r="4"/>
+      <circle cx="405" cy="96" r="4"/>
+      <circle cx="590" cy="67" r="4"/>
+      <circle cx="783" cy="108" r="4"/>
+      <circle cx="1095" cy="112" r="4"/>
+      <circle cx="70" cy="235" r="4"/>
+      <circle cx="260" cy="180" r="4"/>
+      <circle cx="455" cy="238" r="4"/>
+      <circle cx="720" cy="194" r="4"/>
+      <circle cx="930" cy="188" r="4"/>
+      <circle cx="1140" cy="212" r="4"/>
+      <circle cx="160" cy="276" r="4"/>
+      <circle cx="360" cy="228" r="4"/>
+      <circle cx="570" cy="292" r="4"/>
+      <circle cx="768" cy="260" r="4"/>
+      <circle cx="980" cy="200" r="4"/>
+      <circle cx="1080" cy="234" r="4"/>
+    </g>
+  </g>
+
+  <!-- Left accent -->
+  <g opacity="0.9">
+    <rect x="50" y="45" width="6" height="230" rx="3" fill="url(#glow)"/>
+    <rect x="62" y="57" width="2" height="206" rx="1" fill="#86D3FF" fill-opacity="0.45"/>
+  </g>
+
+  <!-- Main text -->
+  <text x="94" y="122" fill="#87B4FF" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="0.5">Joshuva Hayden Kingseley</text>
+  <text x="96" y="162" fill="#D7E3FF" fill-opacity="0.88" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600">AI &amp; ML Engineer  |  Full-Stack AI Builder</text>
+  <text x="96" y="200" fill="#68A5FF" font-family="'Consolas', 'Courier New', monospace" font-size="22" font-weight="700">Computer Vision  •  Fraud Detection  •  MLOps</text>
+
+  <!-- Decorative code-style chips -->
+  <g font-family="'Consolas', 'Courier New', monospace" font-size="14" font-weight="700">
+    <rect x="97" y="226" width="86" height="30" rx="15" fill="#0E2038" stroke="#27496D"/>
+    <text x="116" y="246" fill="#80E0FF">Python</text>
+    <rect x="194" y="226" width="77" height="30" rx="15" fill="#0E2038" stroke="#27496D"/>
+    <text x="218" y="246" fill="#80E0FF">FastAPI</text>
+    <rect x="282" y="226" width="71" height="30" rx="15" fill="#0E2038" stroke="#27496D"/>
+    <text x="307" y="246" fill="#80E0FF">React</text>
+    <rect x="364" y="226" width="79" height="30" rx="15" fill="#0E2038" stroke="#27496D"/>
+    <text x="383" y="246" fill="#80E0FF">OpenCV</text>
+    <rect x="454" y="226" width="78" height="30" rx="15" fill="#0E2038" stroke="#27496D"/>
+    <text x="479" y="246" fill="#80E0FF">Docker</text>
+  </g>
+</svg>

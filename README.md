@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=900&color=70A5FD&center=true&vCenter=true&width=850&lines=Hey%2C+I'm+Joshuva+Hayden+Kingseley+%F0%9F%91%8B;AI+%26+ML+Engineer+%7C+SRM+Institute;Building+ML+Pipelines+and+Full-Stack+AI+Products;Computer+Vision+%7C+Fraud+Detection+%7C+MLOps" alt="Typing SVG" />
-  </a>
+  <img src="./assets/hero-banner.svg" alt="Joshuva Hayden Kingseley hero banner" width="100%" />
 </div>
 
 <br/>
